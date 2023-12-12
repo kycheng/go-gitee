@@ -107,6 +107,7 @@ Class | Method | HTTP request | Description
 *IssuesApi* | [**PostV5ReposOwnerRepoIssuesNumberComments**](docs/IssuesApi.md#postv5reposownerrepoissuesnumbercomments) | **Post** /v5/repos/{owner}/{repo}/issues/{number}/comments | 创建某个Issue评论
 *LabelsApi* | [**DeleteV5ReposOwnerRepoIssuesNumberLabels**](docs/LabelsApi.md#deletev5reposownerrepoissuesnumberlabels) | **Delete** /v5/repos/{owner}/{repo}/issues/{number}/labels | 删除Issue所有标签
 *LabelsApi* | [**DeleteV5ReposOwnerRepoIssuesNumberLabelsName**](docs/LabelsApi.md#deletev5reposownerrepoissuesnumberlabelsname) | **Delete** /v5/repos/{owner}/{repo}/issues/{number}/labels/{name} | 删除Issue标签
+
 *LabelsApi* | [**DeleteV5ReposOwnerRepoLabelsName**](docs/LabelsApi.md#deletev5reposownerrepolabelsname) | **Delete** /v5/repos/{owner}/{repo}/labels/{name} | 删除一个仓库任务标签
 *LabelsApi* | [**GetV5EnterprisesEnterpriseLabels**](docs/LabelsApi.md#getv5enterprisesenterpriselabels) | **Get** /v5/enterprises/{enterprise}/labels | 获取企业所有标签
 *LabelsApi* | [**GetV5EnterprisesEnterpriseLabelsName**](docs/LabelsApi.md#getv5enterprisesenterpriselabelsname) | **Get** /v5/enterprises/{enterprise}/labels/{name} | 获取企业某个标签
