@@ -182,7 +182,12 @@ Class | Method | HTTP request | Description
 *RepositoriesApi* | [**GetV5ReposOwnerRepoBranches**](docs/RepositoriesApi.md#getv5reposownerrepobranches) | **Get** /v5/repos/{owner}/{repo}/branches | 获取所有分支
 *RepositoriesApi* | [**GetV5ReposOwnerRepoBranchesBranch**](docs/RepositoriesApi.md#getv5reposownerrepobranchesbranch) | **Get** /v5/repos/{owner}/{repo}/branches/{branch} | 获取单个分支
 *RepositoriesApi* | [**GetV5ReposOwnerRepoCollaborators**](docs/RepositoriesApi.md#getv5reposownerrepocollaborators) | **Get** /v5/repos/{owner}/{repo}/collaborators | 获取仓库的所有成员
-*RepositoriesApi* | [**GetV5ReposOwnerRepoCollaboratorsUsername**](docs/RepositoriesApi.md#getv5reposownerrepocollaboratorsusername) | **Get** /v5/repos/{owner}/{repo}/collaborators/{username} | 判断用户是否为仓库成员
+*RepositoriesApi* | [**GetV5ReposOwnerRepoCollaboratorsUsername**](docs/RepositoriesApi.md#getv5reposownerrepocollaboratorsusername) | **Get** /v5/repos/{owner}/{repo}/collaborators/{username} | 判断用户
+
+
+
+
+是否为仓库成员
 *RepositoriesApi* | [**GetV5ReposOwnerRepoCollaboratorsUsernamePermission**](docs/RepositoriesApi.md#getv5reposownerrepocollaboratorsusernamepermission) | **Get** /v5/repos/{owner}/{repo}/collaborators/{username}/permission | 查看仓库成员的权限
 *RepositoriesApi* | [**GetV5ReposOwnerRepoComments**](docs/RepositoriesApi.md#getv5reposownerrepocomments) | **Get** /v5/repos/{owner}/{repo}/comments | 获取仓库的Commit评论
 *RepositoriesApi* | [**GetV5ReposOwnerRepoCommentsId**](docs/RepositoriesApi.md#getv5reposownerrepocommentsid) | **Get** /v5/repos/{owner}/{repo}/comments/{id} | 获取仓库的某条Commit评论
