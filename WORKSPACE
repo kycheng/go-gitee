@@ -444,6 +444,7 @@ go_repository(
     version = "v1.5.0",
 )
 
+
 go_repository(
     name = "com_github_mailru_easyjson",
     importpath = "github.com/mailru/easyjson",
