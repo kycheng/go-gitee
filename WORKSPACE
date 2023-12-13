@@ -632,5 +632,3 @@ go_repository(
     sum = "h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=",
     version = "v1.2.0",
 )
-
-
